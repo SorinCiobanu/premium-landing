@@ -1,0 +1,17 @@
+@import "_univ-class.scss";
+@import "_variables.scss";
+@import "_container.scss";
+
+//--------------------------//
+
+@mixin font {
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    @include font;
+}
+
+a{
+    text-decoration: none;
+}
